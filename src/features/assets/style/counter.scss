@@ -1,0 +1,31 @@
+.counterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header {
+        width: 80%;
+        height: 70px;
+        background-color: rgba(75, 76, 87, 0.389);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-radius: 12px;
+        .button {
+            width: 120px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid rgb(198, 184, 184);
+            background: rgb(5, 247, 5);
+        }
+    }
+    .home {
+        width: 100%;
+        text-align: center;
+        .span {
+            font-size: 30px;
+        }
+    }
+    
+}
