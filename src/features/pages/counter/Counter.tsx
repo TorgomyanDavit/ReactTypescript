@@ -29,9 +29,7 @@ export function Counter() {
       <main className='home'>
           <span>{value}</span>
           <span>{JSON.stringify(text)}</span>
-
       </main>
-
     </div>
   );
 }

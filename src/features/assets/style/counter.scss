@@ -18,6 +18,12 @@
             border-radius: 10px;
             border: 1px solid rgb(198, 184, 184);
             background: rgb(5, 247, 5);
+            transition: 5s;
+            &:hover {
+                transition: 1s;
+                transform:scale(2);
+                background: rgba(255, 128, 0, 0.384);
+            }
         }
     }
     .home {
@@ -25,6 +31,11 @@
         text-align: center;
         .span {
             font-size: 30px;
+        }
+        .parent {
+            width: 80%;
+            background: red;
+            height: 500px;
         }
     }
     
