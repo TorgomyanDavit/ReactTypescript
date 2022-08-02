@@ -4,6 +4,67 @@ import { Payment } from "./payment";
 
 
 export function typeScriptFile() {
+    /** Explicity Types*/  // բացահայտ
+    // let character:string;
+    // let age:number;
+    // let isLoggedIn:boolean
+
+    // character = "luigi"
+    // age = 30
+    // isLoggedIn = true
+
+
+    /**multiple type on unique variable  */
+
+    // let uid:string | number;
+    // uid = "string"
+    // uid = 55
+    // uid = true // error
+
+
+    /**Type Arrays */
+    // let array:string[] = [];
+    // array[0] = "armen"
+    // array[1] = 55 //error
+
+
+    /**union types Array */ //միություն
+    // let mixed:(string | number | boolean)[] = []
+    // mixed[0] = "artush";
+    // mixed[1] = 55;
+    // mixed.push(true)
+
+
+    /*Type object */
+    // let obj:object;
+    // obj = {name:"davit",age:55}
+
+    /**specify object key Type */
+
+    // let obj:{name:string,age:number,isLoggedIn:boolean,friends:string[]}
+    // obj = {name:"joe",age:65,isLoggedIn:true,friends:["artur","gevor"]}
+
+    /**any Tyep */
+
+    // let anyThing:any = 58;
+
+    // anyThing = 5
+    // anyThing = "artur"
+    // anyThing = true
+    // anyThing = []
+    // anyThing = {}
+    // anyThing = function(){}
+
+
+    /**specify any types */
+    // let anyThing:any[] = [];
+
+    // anyThing = [1,"armen",true,["gdghfdh"]]
+    // anyThing = 5// error
+    // anyThing = "artur" // error
+    // anyThing = true // error
+    // anyThing = {}// error
+    // anyThing = function(){} //error
 
     /** function declaration type  */
     // let greet:(Function | number);
